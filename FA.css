@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+.main
+{
+	width: 990px;
+    height: auto;
+    font-family: Arial;
+}
+
+
+#PA 
+{
+    margin: 0 auto;
+    width: 990px;
+    height: 0 auto;
+    background-color: thistle;
+}
+
+#FApic 
+{
+    width: 990px;
+    height: 400px;
+    background: url(./ProjectImages/fitAccedmy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#FApic h1
+{
+    font-size: 40px;
+    margin: 0 0 0 0;
+    padding: 47px 2px 29px 230px;
+    color: #ffffff;
+}
+
+
+#FApic p
+{
+    font-size: 30px;
+    margin: 0 0 0 0;
+     padding: 1px 49px 0 116px;
+    color: #ffffff;
+}
+
+#FApic button
+{
+    border-radius: 50px 50px; 
+    margin: 27px 0 0 390px;
+    padding: 12px 35px 13px 20px;
+    background-color:#d0332a; 
+    color:black;
+}
+
+
+
+.FAINFO
+{
+   width: 990px;
+   height: 200px; 
+   font-style: 25px; 
+   background-color: #F7F6F6;
+
+}
+
+.FAINFO p{
+
+    font-size: 20px;
+    margin: 0 0 0 0;
+    padding: 54px 66px 0 69px;
+}
+
+
+#Advist
+{
+    width: 990px;
+    height: 400px;
+    background-color: #F7F6F6;
+}
+
+#Advist h1
+{
+    margin: 0px 0 38px 240px;
+
+}
+
+.pic1 
+{
+    width: 390px;
+    height: 250px;
+    margin: 0 0 0 50px;
+    background: url(./ProjectImages/adviftc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left
+}
+
+.innerAdvist
+{
+    margin: 0 65px 0 0;
+    padding: 9px 0 0 0;
+    width: 400px;
+    height: 300px;
+    font-size: 19px;
+    float: right;
+
+}
+
+
+#advistclash
+{
+     height: 650px;
+     width: 990px;
+     background-color: #ffffff;
+}
+
+#advistclash h1
+{
+    margin: 7px 0 1px 265px;
+    padding: 0 0 0 0;
+    font-size: 30px;
+}
+
+#advistclash ul
+{
+    margin: 0 0 0 0;
+   padding: 20px 8px 15px 135px;
+    font-size: 20px;
+}
+
+
+
+.logos 
+{
+   background-color: #ffffff;    
+}
+
+.logos img
+{
+   margin: 10px 0px 0px 40px;
+    
+}
+

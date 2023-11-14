@@ -1,0 +1,209 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+.main
+{
+	width: 990px;
+    height: auto;
+    font-family: Arial;
+}
+
+#CG
+{
+    height: 0 auto;
+    width: 990px;
+    background-color: #ffffff;
+}
+
+.CGpic
+{
+     height: 300px;
+     width: 990px;
+    background: url(./ProjectImages/carrerggg.jpg);
+    background-repeat: no-repeat;
+    background-size: 990px 330px;
+    
+
+}
+
+.CGpic h1 
+{
+ padding: 45px 0 38px 380px;
+ font-size: 40px;
+ color: #880404;   
+}
+
+
+.CGpic p 
+{
+    color: #880404;
+    font-size: 20px;
+   margin: 0 0 0 0;
+   padding:  28px 61px 0 140px;
+}
+
+#carrerGUide 
+{ 
+    height: 200px;
+    width: 990px;
+    background-color: #ffffff;
+}
+
+
+#carrerGUide p  
+{ 
+   padding: 53px 125px 0 70px;
+    font-size: 20px;   
+}
+
+
+
+#carrerGUidepara
+{
+    height: 300px;
+    width: 990px;
+    background-color: #ffffff;
+
+}
+
+#carrerGUidepara h1
+{
+    font-size: 40px;  
+    padding: 30px 0 30px 400px;
+    
+}
+
+#carrerGUidepara p
+{
+    font-size: 20px;  
+    padding: 11px 58px 0 75px;
+}
+
+
+
+.PTBLock
+{
+    border-top:2px solid #333;
+    border-bottom:2px solid #333;
+    height: 400px;
+    width: 990px;
+    background-color: #ffffff;
+
+}
+
+#pTimg
+{
+    padding: 0 0 0 0;
+    width:350px;
+    height: 400px;
+    background-image: url(./ProjectImages/psdff.jpg);
+    background-size: 100% 100%;
+    float: left;
+}
+
+.guide
+{
+    
+    width: 440px;
+    height: 400px;
+    float: right;
+}
+    
+.guide h1
+{
+    padding: 40px 0 0 20px;
+    font-size: 30px;
+}
+ 
+.guide p
+{
+   padding: 80px 30px 0 0;
+    font-size: 20px;
+}
+ 
+
+.carrer
+{
+    border: 1px solid grey;
+    height: 230px;
+    width: 990px;
+    background-color: #ffffff;
+}
+
+.box1
+{
+   width: 400px; 
+  height: 200px;
+  float: left;
+}
+.box1 h1
+{
+   padding: 42px 0px 0 50px;
+  font-size: 27px;
+}
+.box1 p
+{
+    padding: 25px 0 0 50px;
+    font-size: 20px; 
+}
+
+.box2
+{
+   width: 390px;
+   height: 200px;
+   background-image: url(carreww.jpg);
+   background-repeat: no-repeat;
+   break-after: 390px 200px;
+   float: right;
+}
+
+
+
+#cfitness
+{
+    height: 250px;
+    width: 990px;
+    background-color: gray;
+}
+
+#cfitness h1
+{
+    padding: 18px 0px 25px 200px;
+    font-size: 30px; 
+}
+
+
+#cfitness p
+{
+    padding: 0 151px 0 86px;
+    font-size: 25px; 
+}
+
+#cfitness button
+{
+    background-color: orange;
+    border-radius: 50px 50px;
+    color: black;
+    margin: 38px 0 0 350px;
+    padding: 17px 40px 18px 40px;
+    font-size: 15px; 
+}
+
+.partner
+{
+    height: 100px;  
+    width: 990px;
+    background-color: #ffffff;
+
+
+}
+
+.partner img
+ { 
+   padding: 20px 33px 0 14px;
+}
+

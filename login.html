@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css">
+	  <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+
+<div class="main">	
+		<div class="header">
+			<img src="./ProjectImages/fublack.png" alt="logo" id="logo">
+
+			<h1 id="name">FU Fitness Training Center</h1>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="menubar">
+     	<a class="active" href="home.html">Home</a> 
+      	<a href="About.html">About Us</a> 
+      	<a href="Service.html">Service</a>
+      	<a href="staff.html">Staff</a>
+      	<a href="LocationAndContact.html">Location & Contact</a>
+      	<a href="Store.html">Store</a>
+      	<a href="GalleryImages.html">Gallery</a>
+      	<a href="registration.html">Register Yourself</a>
+      	<a href="Login.html">Login</a>
+      	<a href="Nutrition.html">Nutrition</a>
+      	<div class="clear"></div>
+        </div>
+    <div id="mainlogin">
+        <div id="login">
+        	<div id="loginbox">
+        		<h1>LOGIN HERE</h1>
+        		<form>
+        			<label>Username</label><br>
+        			<input type="text" name="email"  placeholder="Enter UserName" 
+        			pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+					<label>Password</label>
+					<input type="password" name="Password"  placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+					title="Password Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="pass1" required/>		
+					<button id="loginSubmit">Login</button>
+					<script>
+						$(document).ready(function(){
+							$("#loginSubmit").click(function(){
+							var n=$('pass1').val({
+							if (n=="") 
+							{
+								alert('invalid login');
+							}
+							});
+						});
+					</script>
+					<p class="pStyle" id="forget">Forgotten password</p>
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$('#forget').click(function()
+							{
+								alert("SMS Sent To Your Number For Verification");
+							});
+						});
+					</script>
+					<p class="pStyle">Don't hava an account?</p>
+					<a href="Registration.html"><p id="signup">Sign up now!</p></a>
+        		</form>
+
+        	</div> <!--login box close-->
+        	
+        </div>
+    </div>  <!--login main close-->
+
+	<!--Div Footer-->
+        	<div class="footerMain">
+        		<div class="social">
+				       <a href=""><img src="./ProjectImages/facebook_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/skype_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/linkedin_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/pinterest_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/dribbble_icon.png"></a>
+
+		 		</div>
+
+		 		<div id="footBox">
+		 			<div class="footerboxes">
+		 				<h2>COURSES</h2>
+			 			
+			 				<a href="PT.html">Personal Trainer(Full-time)</a>
+			 				<a href="Staff.html">Gym Instructor</a>
+			 				<a href="SM.html">Sports message</a>
+			 				<a href="YI.html">Yoga instructor</a>
+			 				<a href="FS.html">Funding Support</a>
+			 				<a href="AC.html">All Courses</a>
+		 			</div>
+		 			<div class="footerboxes">
+		 				<h2>FITNESS CAREER</h2>
+ 				
+ 				<a href="AA.html">Apprenticeship</a>	
+ 				<a href="PT.html">Fitness Academy</a>
+ 				<a href="CG.html">Carreer Guide</a>
+ 			
+		 			</div>
+		 			<div class="footerboxes">
+		 				<h2>ABOUT</h2>
+ 				
+ 				<a href="About.html">About FU FITNESS </a>
+ 				<a href="LocationAndContact.html"> Contact</a><br>
+		 			</div>
+		 			
+		 			<div class="footerboxes">
+		 				
+		 				<h2>GET IN TOUCH</h2>
+ 				
+ 				<p>Get exclusive news about upcoming courses, events and workshops.</p>
+        		<form onsubmit="return popo()">
+ 				<input type="text" name="name" placeholder="Name"  maxlength="10" required >
+ 				<input type="text" name="email" placeholder="Email " required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+ 				<button onsubmit="popo()">submit</button>
+				      </form>
+		 			</div>
+		 			<div class="clear"></div>
+		 		</div> <!--foot box end-->	
+
+		 		<div class="copyright">
+			 		<p><em>Privacy and Cookies <b>|</b>  Policies<br><br>
+			 		&copy;FU</em> Fitness training Center. All rights reserved </p>
+			        
+			        <a href="About.html">AboutUs</a> 
+			        <a href="LocationAndContact.html">Location & Contact</a>
+			        <a class="active" href="home.html">Home</a> 
+		    </div>
+
+        	</div>  <!--footer end-->
+
+
+</div>  <!--main div closing-->
+</body>
+</html>

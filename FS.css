@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+.main
+{
+	width: 990px;
+	height: auto;
+}
+
+.FS
+{
+    height: 0 auto;
+    width: 990px;
+    background-color: #ffffff;
+}
+
+#loan
+{
+    height: 130px;
+    width: 990px;
+    background-color: gray;
+}
+
+#loan h1
+{
+    font-size: 30px;
+    padding: 42px 0px 0 300px;
+    color: white;
+}
+
+#fund
+{
+	width: 990px;
+	height: 0 auto;
+	background-color: #ffffff;
+}
+#fund h2
+{
+	font-size: 30px;
+	padding: 0 0 0 70px;
+}
+
+#fund p
+{
+	font-size: 20px;
+	padding: 20px 80px 25px 80px;
+}
+#fund ul 
+{
+	padding: 0 180px 18px 100px;
+
+}
+#fund ol
+{
+	padding: 0 160px 18px 100px;
+}
+
+#sidebox
+{
+  width: 990px;
+  height: 150px;
+  background-color: gray;
+}
+
+#sidebox h2
+{
+	font-size: 30px;
+	padding: 5px 0 0 408px;
+}
+#sidebox p
+{
+	font-size: 20px;
+	padding: 1px 0 0 150px;
+}
+#sidebox button
+{
+	margin: -3px 0 0 382px;
+    padding: 3px 51px 4px 60px;
+	font-size: 15px;
+	border-radius: 50px 50px;
+	background-color: #ff3333
+}
+
+#sidebox input
+{
+	border: 2px solid #ff3333;
+	margin: 9px 15px 13px 380px;
+    padding: 7px 0px 4px 41px;
+	font-size: 15px;
+	color: #ff3333;
+}

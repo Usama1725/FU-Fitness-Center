@@ -1,0 +1,255 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+.main
+{
+	width: 990px;
+	height: auto;
+}
+
+
+#yoga
+{
+ width: 990px;
+ height: 900px;
+ background-color: #ffffff;
+  
+}
+
+
+#yohead
+{
+
+	width: 990px;
+	height: 300px;
+	background-image: url(./ProjectImages/yogaintr.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+
+}
+
+#yohead h1
+{
+	padding: 35px 0 0 250px;
+	font-size: 40px;
+	 color: white;
+}
+
+#yohead p
+{
+	padding: 30px 156px 0 139px;
+    font-size: 30px;
+	color: #ff3333;
+	
+	 
+}
+
+#yohead button
+{
+	margin: 16px 0 0 390px;
+	padding: 10px 26px 10px 25px;
+	 font-size: 20px;
+	 border-radius: 50px 50px;
+	 color: black;
+	 background-color: #ff3333;
+}
+
+#headerbar
+{
+	width: 990px;
+	height: 50px;
+	background-color: gray;
+}
+
+#headerbar h1
+{
+	padding: 0  0 0 300px;
+}
+
+#instruction
+{
+	height: 300px;
+	width: 990px;
+	background-color: #bda8a4;
+}
+
+#yogaimg
+{
+	width: 400px;
+	height: 300px;	
+   background-image: url(./ProjectImages/yogatwo.jpg);
+   background-repeat: no-repeat;
+   background-size: 400px 400px;
+   float: left;
+}
+
+#instr
+{
+	height: 300px;
+	width: 590px;
+	background-color: #ffffff;
+	float: right;
+}
+
+#instr p
+{
+	 margin: 0 0 0 0;
+    padding: 60px 90px 17px 60px;
+    font-size: 20px;
+}
+
+#ydimlopa
+{
+	height: 630px;
+	width: 990px;
+	background-color: #ffffff;
+}
+
+
+#ydimlopa h1
+{
+	padding:26px 0 5px 297px;
+	color: #d67d30;
+	font-size: 30px;
+
+}
+
+#ydimlopa p
+{
+    padding: 3px 80px 47px 55px;
+    font-size: 20px;
+}	
+
+#yogalook
+{
+	width: 990px;
+	height: 200px;
+	background-color: gray;
+}
+
+#yogalook h1
+{
+	padding: 25px 0 0 250px;
+	font-size: 30px;
+}
+
+
+#yogalook p
+{
+	padding: 9px 0px 0 120px;
+     font-size: 18px;
+}
+
+
+#yogalook button
+{
+	padding: 9px 21px 10px 18px;
+	margin: 24px 0 0 350px; 
+	border-radius: 50px 50px;
+	font-size: 20px;
+	background-color: #d67d30;
+}
+
+.yogasimges
+{
+	width: 990px;
+	height: 400px;
+	background-color: #ffffff;
+}
+
+#ym1
+{
+
+	width: 990px;
+	height: 200px;
+	float: left;
+}
+
+#yoga1
+{
+
+	
+	width: 330px;
+	height: 200px;
+	background-image: url(./ProjectImages/openEvening.jpg);
+	background-size: 330px 200px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+
+#yoga2
+{
+	
+	width: 330px;
+	height: 200px;
+	background-image: url(./ProjectImages/becomeyogainst.jpg);
+	background-size: 330px 200px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#yoga3
+{
+	
+	width: 330px;
+	height: 200px;
+	background-image: url(./ProjectImages/howtobook.jpg);
+	background-size: 330px 200px;
+	background-repeat: no-repeat;
+	float: right;
+	
+}
+
+
+#ym2
+{
+	width: 990px;
+	height: 200px;
+	float: left;
+}
+
+.methods
+{
+	width: 330px;
+	height: 200px;
+	background-color:white;
+	float: right;
+}
+
+.methods h1
+{ 
+  font-size: 20px;
+  padding: 16px 0 0 63px;
+}
+
+.methods p
+{ 
+      font-size: 15px;
+    padding: 25px 25px 0 58px;
+}
+
+#whyFUChoose
+{
+	width: 990px;
+	height: 230px;
+	background-color: gray;
+}
+
+
+#whyFUChoose h1
+{
+	padding: 10px 0 0 190px;
+	font-size: 30px;
+}
+
+#whyFUChoose p
+{
+	padding: 13px 72px 1px 85px;
+	font-size: 20px;	
+}

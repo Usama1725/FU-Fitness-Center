@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+
+#AA
+{
+    width: 990px;
+    height: 0 auto;
+
+}
+
+#hoa
+{
+    width: 990px;
+    height: 300px;
+    background-image: url(./ProjectImages/aperntship.jpg);
+    background-size: 990px 300px;
+    background-repeat: no-repeat;
+}
+#hoa h1
+{
+    font-size: 40px;
+    padding: 53px 1px 0 280px;
+    color: #f1f1f1;
+}
+
+#hoa p
+{
+   font-size: 30px;
+   padding: 13px 48px 0 95px;
+}
+
+#hoa button
+{
+     background-color: #ff3333;
+     border-radius: 50px 50px;
+     padding: 15px 31px 15px 32px;
+     margin: 24px 0 0 361px;
+     font-size: 15px;
+}
+
+#para
+{
+    width: 990px;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+
+#para p
+{
+       font-size: 20px; 
+       padding: 55px 153px 0 101px;
+}
+
+#Advitiseship
+{
+    width: 990px;
+    height: 400px;
+    background-color: #ffffff;
+
+}
+#Advitiseship h1
+{
+    font-size: 30px;
+    padding: 0 0 0 200px;
+}
+
+
+.innership
+{
+    margin: 25px 0 0 46px;
+    width: 490px;
+    height: 350px;
+    background-image: url(./ProjectImages/adviapp.jpg);
+    background-repeat: no-repeat;
+    background-size: 490px 350px;
+    float: left;
+}
+
+.ind
+{
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+.ind ul
+{
+     font-size: 18px;
+    padding: 36px 81px 0 5px;
+}
+
+#para1
+{
+    width: 990px;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+#para1 h1
+{
+    font-size: 40px;
+    padding: 14px 0 10px 184px;
+}
+
+#para1 h2
+{
+    font-size: 30px;
+    padding: 9px 0 15px 78px;
+}
+
+#para1 p 
+{
+    font-size: 20px;
+    padding: 45px 69px 0 62px;
+}
+
+#para1 ul
+{
+    font-size: 20px;
+    padding: 5px 0 7px 137px;
+}
+
+#cont
+{
+    width: 990px;
+    height: 200px;
+    background-color: gray;
+}
+
+#cont h1
+{
+    font-size: 30px;
+    padding: 17px 0 0 200px;
+}
+#cont p 
+{
+   font-size: 20px;
+   padding: 10px 0 0 73px;
+}
+
+#cont button
+{
+    padding: 10px 15px 10px 15px; 
+   margin: 25px 0 0 320px;
+   font-size: 15px;
+   border-radius: 50px 50px;
+   background-color: #ff3333;
+   
+}
+
+.FQ
+{
+    width: 990px;
+    height: 700px;
+    background-color: #ffffff;
+
+}
+
+.FQ h1
+{
+    font-size: 40px;
+    padding: 22px 0 0 220px;
+}
+
+
+.FQ h2
+{
+    font-size: 30px;
+    padding: 9px 0 0 78px;
+}
+
+.FQ p 
+{
+    font-size: 20px;
+    padding: 29px 42px 0 78px;
+}

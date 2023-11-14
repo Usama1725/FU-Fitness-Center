@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+
+.menu
+{
+    width: 990px;
+    height: 0 auto;
+    background-color:white;
+}
+
+.Trainer{
+     background: url(./ProjectImages/personaltrainerffff.jpg);
+     width: 978px;
+     height: 310px;
+     padding: 5px;
+     background-size: auto;
+     background-repeat: no-repeat;
+     background-size: 990px 340px; 
+    
+}
+
+ .personal
+{
+	width: 990px;
+	height: 0 auto;
+	background-color:white;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+
+}
+
+#personalTD h1
+{
+	color: #2c398c;
+	padding: 13px 0 0 100px;
+   font-size: 40px;
+}
+
+#personalTD p
+{
+	padding: 6px 40px 10px 70px;
+   font-size: 20px;
+}
+
+#priceetc {
+    width: 990px;
+    height: 60px;
+	padding: 0 0 0 0 ;
+	display: block;
+}
+.pricloc {
+    width: 198px;
+    height: 74px;
+    display: inline;
+}
+
+#Personalcontent p
+{
+	margin: 25px 80px 23px 91px;
+	font-size: 20px;
+
+}
+#Personalcontent h1 {
+	color: #2c398c;
+	padding-top: 15px;
+	padding-left: 80px;
+	font-size: 38px;
+}
+#Personalcontent h2 
+{
+   color:	#9a5b5b;
+   margin: 15px 0px 0px 75px;
+
+}
+#ideaofperson
+{
+	height: 400px;
+	width: 400px;
+	padding-left: 23px;
+	
+}
+#Personalcontent li {
+    font-size: 22px;
+    margin: 13px 61px 0px 117px;
+}
+
+
+
+#Personalcontent hr {
+
+    width: 747px;
+    border: 1px solid #a8b8a0;
+    margin: 12px 0px 0px 87px;
+
+}
+.personalTD
+{
+	height: 0;
+	width: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+
+}
+#ideaofperson {
+    width: 450px;
+    height: 300px;
+    margin-top: 17px;
+    float: left;
+}
+#dissscus {
+    width: 496px;
+    height: 279px;
+    float: right;
+    margin: 38px 21px 1px 0px;
+}
+

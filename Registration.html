@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css">
+  <link rel="stylesheet" type="text/css" href="Staff.css">
+  <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="main">	
+		<div class="header">
+			<img src="./ProjectImages/fublack.png" alt="logo" id="logo">
+
+			<h1 id="name">FU Fitness Training Center</h1>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="menubar">
+     	<a class="active" href="home.html">Home</a> 
+      	<a href="About.html">About Us</a> 
+      	<a href="Service.html">Service</a>
+      	<a href="staff.html">Staff</a>
+      	<a href="LocationAndContact.html">Location & Contact</a>
+      	<a href="Store.html">Store</a>
+      	<a href="GalleryImages.html">Gallery</a>
+      	<a href="Registration.html">Register Yourself</a>
+      	<a href="Login.html">Login</a>
+      	<a href="Nutrition.html">Nutrition</a>
+      	<div class="clear"></div>
+        </div>
+                  <!--Registration Start-->
+        <div id="RegisterMain">
+            <div id="RegisterBack">
+              <h1 id="RegisterHeading">Registeration Form</h1>
+              
+              <input type="text" name="fname" placeholder="Enter Your First Name" class="RegisterInput" 
+              pattern="[a-zA-Z._%+-]{5,}$">
+              <input type="text" name="lname"  placeholder="Enter Your Last Name"  class="RegisterInput"
+              pattern="[a-zA-Z._%+-]{5,}$">
+              <input type="email" name="email" placeholder="Enter Your Email Id" class="RegisterInput" 
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <select id="SelectPhone">
+              <option>+91</option>
+               <option>+92</option>
+               <option>+93</option> 
+               <option>+94</option> 
+               <option>+95</option>
+              </select>
+              <input type="text" name="num" placeholder="Enter Your Phone Number" id="Phone" pattern="[0-9._%+-]{10}$">
+              <input type="password" name="pass" placeholder="Enter Your Password" class="RegisterInput">
+              <input type="password" name="pass" placeholder="Please Re-Enter Your Password" class="RegisterInput">
+              <input type="text" name="num" placeholder="Enter Your Permanent Address" class="RegisterInput"  
+              pattern="[a-zA-Z0-9._%+-]{10,}$">
+              <input type="text" name="num" placeholder="Enter Your Temporary Address" class="RegisterInput"
+              pattern="[a-zA-Z0-9._%+-]{10,}$">
+              <input type="text" name="num" placeholder="Enter Your City" class="RegisterInput"
+              pattern="[a-zA-Z._%+-]{5,}$">
+              <input type="text" name="num" placeholder="Country" class="RegisterInput"
+              pattern="[a-zA-Z._%+-]{5,}$">
+              <p><input type="radio" name="gender" id="GenderMale"> 
+              <span style="font-family: sans-serif; color: aliceblue;">Male</span>&nbsp; &nbsp;
+              <input type="radio" name="gender" id="GenderFemale" >
+              <span style="font-family: sans-serif; color: aliceblue;">Female</span></p>
+              <div id="RegisterTerms">
+              <input type="checkbox" name="" style="margin: 0px 10px 0px 0px;">I have agreed To Terms & Conditions
+              </div>
+              <button id="RegisterButton">Register</button>
+
+            </div>
+        </div>
+
+<!--Div Footer-->
+          <div class="footerMain">
+            <div class="social">
+               <a href=""><img src="./ProjectImages/facebook_icon.png"></a>
+              <a href=""><img src="./ProjectImages/skype_icon.png"></a>
+              <a href=""><img src="./ProjectImages/linkedin_icon.png"></a>
+              <a href=""><img src="./ProjectImages/pinterest_icon.png"></a>
+              <a href=""><img src="./ProjectImages/dribbble_icon.png"></a>
+
+        </div>
+
+        <div id="footBox">
+          <div class="footerboxes">
+            <h2>COURSES</h2>
+            
+              <a href="PT.html">Personal Trainer(Full-time)</a>
+              <a href="Staff.html">Gym Instructor</a>
+              <a href="SM.html">Sports message</a>
+              <a href="YI.html">Yoga instructor</a>
+              <a href="FS.html">Funding Support</a>
+              <a href="AC.html">All Courses</a>
+          </div>
+          <div class="footerboxes">
+            <h2>FITNESS CAREER</h2>
+        
+        <a href="AA.html">Apprenticeship</a>  
+        <a href="PT.html">Fitness Academy</a>
+        <a href="CG.html">Carreer Guide</a>
+      
+          </div>
+          <div class="footerboxes">
+            <h2>ABOUT</h2>
+        
+        <a href="About.html">About FU FITNESS </a>
+        <a href="LocationAndContact.html"> Contact</a><br>
+          </div>
+          
+          <div class="footerboxes">
+            
+            <h2>GET IN TOUCH</h2>
+        
+        <p>Get exclusive news about upcoming courses, events and workshops.</p>
+            <form onsubmit="return popo()">
+        <input type="text" name="name" placeholder="Name"  maxlength="10" required >
+        <input type="text" name="email" placeholder="Email " required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+        <button onsubmit="popo()">submit</button>
+              </form>
+          </div>
+          <div class="clear"></div>
+        </div> <!--foot box end-->  
+
+        <div class="copyright">
+          <p><em>Privacy and Cookies <b>|</b>  Policies<br><br>
+          &copy;FU</em> Fitness training Center. All rights reserved </p>
+              
+              <a href="About.html">AboutUs</a> 
+              <a href="LocationAndContact.html">Location & Contact</a>
+              <a class="active" href="home.html">Home</a> 
+        </div>
+
+          </div>  <!--footer end-->
+
+
+
+
+  </div> <!--main div close-->
+</body>
+</html> 

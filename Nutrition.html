@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nutrition</title>
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css">
+  <link rel="stylesheet" type="text/css" href="Staff.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+	<div class="main">	
+		<div class="header">
+			<img src="./ProjectImages/fublack.png" alt="logo" id="logo">
+
+			<h1 id="name">FU Fitness Training Center</h1>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="menubar">
+     	<a class="active" href="home.html">Home</a> 
+      	<a href="About.html">About Us</a> 
+      	<a href="Service.html">Service</a>
+      	<a href="staff.html">Staff</a>
+      	<a href="LocationAndContact.html">Location & Contact</a>
+      	<a href="Store.html">Store</a>
+      	<a href="GalleryImages.html">Gallery</a>
+      	<a href="Registration.html">Register Yourself</a>
+      	<a href="Login.html">Login</a>
+      	<a href="Nutrition.html">Nutrition</a>
+      	<div class="clear"></div>
+        </div>
+                  <!--nutrion main div start-->
+        <div id="NutritionMain">
+        <div id="NutritionHead">
+          <h1>Nutrition Program</h1>
+          <button> Contact Us About Nutrition Program</button>
+        </div>
+        <div id="NutritionPara">
+          <p id="NutritionP">New Year. New You. Best You!<br>
+          Whole body detox from the inside out. </p>
+          <p id="NutritionP"><b>Commit completely for 30 days and change your life.</b>SharkWAVE fitness is now offering Whole30 small group challenges. Kick off your NEW YEAR with a NEW YOU and register for the Whole30 today. </p>
+        </div>
+
+        <div id="NutritionContent">
+          <div class="NutritionBlocks">
+            <p><b style="color: #ae6161;">Program Benefits</b></p>
+            <ul><b>
+            <li>Increased energy</li>
+             <li>Decreased aches and pain</li>
+             <li>Weight loss</li>
+            <li> Clearer skin</li>
+             <li>Gut healing</li>
+            <li> Blood sugar stabilization</li>
+             <li>Better sleep</li>
+             <li>Clearer mental function</li>
+             <li>Restore a healthy relationship with food</li>
+             <li>Reduce cravings</li></b></ul>
+       </div>
+       <div class="NutritionBlocks">
+            <p><b style="color: #ae6161;"> Some Basics:</b></p>
+            
+                  <p style="margin-left: 5px;font-size: 16px;"><b>Yes to:</b> Real food. Lots of it!</p>
+                  <p style="margin-left: 5px;font-size: 16px;">No to:</p>
+                   <ul>
+                   <li>Alcohol</li>
+                   <li>Added sugar</li>
+                   <li>Gluten</li>
+                   <li>Legumes</li>
+                   <li>Dairy</li>
+                  <b style="margin-left: 5px;font-size: 20px; color: red;">Program includes:</b>
+                   <li>
+                   Weekly meetings including an informational meeting
+                  </li>
+                    <li> Private Facebook group for added support
+                   Daily Whole30 journal</li>
+            </ul>
+       </div>
+       <div class="NutritionBlocks">
+            <p><b style="color: #ae6161;"> When:</b></p>
+             
+           <p style="margin-left: 5px;font-size: 16px;">All meetings: </p>
+           <ul style="list-style: none;">
+            <li>Monday 5:45-6:45PM </li>
+            <li>1/7/19: Ground zero </li>
+           <li> 1/14/19: Meeting #1 </li>
+           <li> 1/28/19: Meeting #1 </li>
+            <li>2/4/19: Meeting #3 </li>
+            <li>2/11/19: Meeting #4 </li>
+            </ul>
+       </div>
+       <div class="clear"></div>
+        </div>
+
+
+        <div id="NutritionBio">
+       <div class="Nutritionist">
+             <h1>Ashley Schroth-Cary</h1>
+             <!--<img src="nutritionist.png" alt="">-->
+             <img id="myImg" src="./ProjectImages/nutritionist.png" alt="Ashley Schroth-Cary Nutritionist" 
+             style="width:100%;max-width:300px">
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+
+              <script>
+              // Get the modal
+              var modal = document.getElementById("myModal");
+              // Get the image and insert it inside the modal - use its "alt" text as a caption
+              var img = document.getElementById("myImg");
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
+             <div id="intrrr">
+                  <p style="margin-left: 45px;"><b> Ashley Schroth-Cary</b></p>
+                  <p>AS, NE, LE, CPT, Certified Fitness Instructor</p>
+                  <button onclick="npopup()">Ashley Bio</button>
+                  <script type="text/javascript">
+                  function npopup() 
+                  {
+                  swal("Ashley Schroth-Cary", " Ashley Schroth-Cary is a whole foods nutritionist who studied at Bauman College and San Francisco State University. Her background is in emergency medicine where she worked as an EMT/firefighter and a ski patroller. She found her true calling as a nutritionist and has never looked back. She has spent the last six years helping build a lifestyle program in Santa Rosa as well as starting a nutrition program at a functional fitness gym.");
+                  }
+            </script>
+             </div>
+       </div>
+       <div class="Nutritionist">
+             <h5>Take control of your nutrition with a customized program by our Certified Nutritionist</h5>
+          <p>Ashley Schroth-Cary takes a very holistic approach when working with her clients. She helps her clients reach their healthiest selves by eating foods in their most natural form while trying to stay away from processed and refined foods. Ashley helps her clients find their best selves by looking at the big picture, realizing health is not a size but a feeling and to get there you need to focus on food, exercise, and lifestyle.</p>
+        </div>
+
+        </div>
+
+        </div> <!--nutrition main div end-->
+<!--Div Footer-->
+          <div class="footerMain">
+            <div class="social">
+               <a href=""><img src="./ProjectImages/facebook_icon.png"></a>
+              <a href=""><img src="./ProjectImages/skype_icon.png"></a>
+              <a href=""><img src="./ProjectImages/linkedin_icon.png"></a>
+              <a href=""><img src="./ProjectImages/pinterest_icon.png"></a>
+              <a href=""><img src="./ProjectImages/dribbble_icon.png"></a>
+
+        </div>
+
+        <div id="footBox">
+          <div class="footerboxes">
+            <h2>COURSES</h2>
+            
+              <a href="PT.html">Personal Trainer(Full-time)</a>
+              <a href="Staff.html">Gym Instructor</a>
+              <a href="SM.html">Sports message</a>
+              <a href="YI.html">Yoga instructor</a>
+              <a href="FS.html">Funding Support</a>
+              <a href="AC.html">All Courses</a>
+          </div>
+          <div class="footerboxes">
+            <h2>FITNESS CAREER</h2>
+        
+        <a href="AA.html">Apprenticeship</a>  
+        <a href="PT.html">Fitness Academy</a>
+        <a href="CG.html">Carreer Guide</a>
+      
+          </div>
+          <div class="footerboxes">
+            <h2>ABOUT</h2>
+        
+        <a href="About.html">About FU FITNESS </a>
+        <a href="LocationAndContact.html"> Contact</a><br>
+          </div>
+          
+          <div class="footerboxes">
+            
+            <h2>GET IN TOUCH</h2>
+        
+        <p>Get exclusive news about upcoming courses, events and workshops.</p>
+            <form onsubmit="return popo()">
+        <input type="text" name="name" placeholder="Name"  maxlength="10" required >
+        <input type="text" name="email" placeholder="Email " required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+        <button onsubmit="popo()">submit</button>
+              </form>
+          </div>
+          <div class="clear"></div>
+        </div> <!--foot box end-->  
+
+        <div class="copyright">
+          <p><em>Privacy and Cookies <b>|</b>  Policies<br><br>
+          &copy;FU</em> Fitness training Center. All rights reserved </p>
+              
+              <a href="About.html">AboutUs</a> 
+              <a href="LocationAndContact.html">Location & Contact</a>
+              <a class="active" href="home.html">Home</a> 
+        </div>
+
+          </div>  <!--footer end-->
+
+
+
+</div> <!--main div close-->
+</body>
+</html>        

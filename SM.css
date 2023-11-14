@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+
+#menu
+{
+  margin: 0 auto;
+  width: 990px;
+  height: 0 auto;
+  background-color: #ffffff;
+}
+
+#hadSport
+{
+    width: 990px;
+    height: 450px;
+    background: url(./ProjectImages/SPortMessage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#hadSport  h1
+{
+    color: #8c4527;
+    font-size: 45px;
+    padding: 160px 0px 0 200px;
+}
+
+#hadSport p
+{
+    color: #8c4527;
+    font-size: 25px;
+    padding: 50px 0px 0px 194px;
+}
+
+.secSport
+{
+        padding: 28px 48px 0 68px;
+        font-size: 20px;
+}
+
+.secSport h1
+{
+    font-size: 30px;
+}
+
+.secSport p
+{
+    padding:29px 27px 0 20px;
+}

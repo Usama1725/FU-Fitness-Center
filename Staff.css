@@ -1,0 +1,817 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+#mainStaff
+{
+	width: 990px;
+	height: 2580px;
+	
+}
+#mainPic
+{
+	width: 962px;
+	height: 300px;
+	background: url(./ProjectImages/ourcoches.jpg);
+	background-size: 962px 301px;
+	margin: 6px 0px 15px 15px;
+}
+#coachHead
+{
+	padding: 215px 0px 0px 380px;
+	font-size: 35px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+}
+#StaffIntro
+{
+	width: 960px;
+	height: 80px;
+	font-size: 12px;
+	color: gray;
+	font-family: verdana;
+	text-align: justify;
+}
+#StaffIntro: hover
+{
+	box-shadow: 2px 2px 2px 2px #ccc;
+}
+#CoachMain
+{
+	width: 960px;
+	height: 1875px;
+}
+.CoachBlocks
+{
+	float: left;
+	width: 470px;
+	height: 600px;
+	border: 2px solid grey;
+	margin: 10px 0px 0px 6px;
+	border-radius: 25px;
+}
+.CoachBlocks:hover
+{
+	border: 2px solid skyblue;
+}
+.CoachPic
+{
+	width: 340px;
+	height: 280px;
+	background-size: 340px 281px;
+	margin-left: 60px;
+}
+.CoachInfo
+{
+	width: 455px;
+	height: 310px;
+		
+}
+.CoachName
+{
+	color: #3a3b94;
+	text-align: center;
+}
+     
+#socialBox
+{
+	height: 40px;
+	width: 216px;
+}     
+ul 
+{
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons 
+{
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon 
+{
+    color: #fff;
+}
+ul.social-icons 
+{
+    margin-top: 10px;
+}
+.social-icons li 
+{
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook 
+{
+    padding:6px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover 
+{
+    background-color: #3d5b99;
+}
+.fa-twitter 
+{
+    padding:6px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover 
+{
+    background-color: #00aced;
+}
+.fa-rss 
+{
+    padding:6px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover 
+{
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:6px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:6px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:6px 6px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+.coachP
+{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: grey;
+	text-align: justify;
+	margin-top: 10px;
+}
+#free
+{
+	width: 960px;
+	height: 300px;
+	background-image: url('./ProjectImages/hbsStrong.jpg');
+	background-size: 960px 300px;
+
+}
+
+
+
+#service
+{
+	height: 2420px;
+	width: 984px;
+	border: 3px solid grey;
+}
+#ServiceImg
+{
+	background-image: url('./ProjectImages/Services.jpg');
+	width: 975px;
+	height: 300px;
+	margin-top: 5px;
+	background-size: 975px 300px;
+}
+#ServiceHeading
+{
+	color: white;
+	padding: 115px 0px 0px 292px;
+	font-size: 40px;	
+}
+#ServiceP
+{
+	color: white;
+	padding: 30px 0px 0px 343px;
+	font-size: 30px;	
+}
+#servicesexplan
+{
+	width: 830px;
+	height: 160px;
+}
+#servicesexplan p
+{
+	margin: 15px 0px 0px 0px;
+	font-size: 17px;
+}
+#servicesexplan h1
+{
+	font-size: 40px;
+	text-align: center;
+	color: #166793;
+}		
+.ServiceBlocks
+{
+	width: 920px;
+	height: 210px;
+	display: block;
+	border: 3px solid grey;
+	margin-top: 10px;
+}
+.ServiceBlocks:hover
+{
+	cursor: pointer;
+	border: 3px solid skyblue;
+}
+.BlockImg
+{
+	float: left;
+	height: 199px;
+	width: 220px;
+}
+.BlockImg img
+{
+	float: left;
+	height: 199px;
+	width: 220px;
+	padding: 5px;
+}
+.BlockPara
+{
+	width: 683px;
+	height: 197px;
+	margin: 5px 0px 0px 230px;
+}
+.BlockPara h2
+{
+	color: #62869a;
+	float: left;
+	margin: 8px 0px 0px 230px;
+}
+.BlockPara p
+{
+	margin: 30px 0px 0px 22px;
+	font-family: verdana;
+	font-size: 15px;
+}	
+.BlockPara button
+{
+	width: 125px;
+	height: 30px;
+	float: left;
+	background: grey;
+	border-radius: 16px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	margin: 26px 0px 0px 265px;
+}		
+.BlockPara button:hover
+{
+	background-color:skyblue; 
+}
+
+
+
+#RegisterMain
+{
+	background-image: url('./ProjectImages/backgroundchk2.jpg');
+	width: 990px;
+	height: 600px;
+	background-size: 990px 600px;
+}
+#RegisterBack
+{
+	width: 740px;
+	height: 600px;
+	background-color: #051019;
+	opacity: 0.8;
+}
+#RegisterHeading
+{
+	color: aliceblue;
+	font-size: 27px;
+	text-align: center;
+	padding: 35px;
+}
+.RegisterInput
+{
+	width: 250px;
+	border-radius: 5px;
+	background: transparent;
+	color: white;
+	margin: 20px 0px 0px 65px;
+	display: inline-block;
+	padding: 8px;
+}
+#Phone
+{
+	width: 190px;
+	border-radius: 5px;
+	background: transparent;
+	color: white;
+	margin: 10px 0px 0px 0px;
+	display: inline-block;
+	padding: 8px;
+}
+#SelectPhone
+{
+	width: 55px;
+	height: 34px;
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+	margin: 20px 0px 0px 65px;
+}
+#GenderMale
+{
+	margin: 25px 0px 0px 290px;
+}
+#GenderFemale
+{
+	margin: 25px 0px 0px 45px;
+}
+#RegisterTerms
+{
+	color: aliceblue;
+	margin: 25px 0px 0px 220px;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+#RegisterButton
+{
+	width: 125px;
+	height: 40px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: #47525d;
+	margin: 25px 0px 0px 310px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: aliceblue;
+	background: transparent; 
+}
+#RegisterButton:hover
+{
+	background-color: #a8e6e17a;
+	cursor: pointer;
+}
+
+
+
+
+#Location
+{
+	width: 990px;
+	height: 500px;
+}
+#Contactboxleft
+{
+	float: left;
+	width: 350px;
+	height: 485px;
+	margin: 5px;
+}
+#Contactboxright
+{
+	float: right;
+	width: 590px;
+	height: 450px;
+	margin: 15px 15px 0px 0px;
+}
+.ContactStyle
+{
+	width: 310px;
+	height: 25px;
+	margin: 5px 0px 0px 0px;
+}
+#ContactTextArea
+{
+	width: 310px;
+	height: 80px;
+	margin: 5px 0px 0px 0px;
+}
+#ContactButton
+{
+	border-radius: 18px;
+	font-size: 20px;
+	background-color: #ceb3bb;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	width: 90px;
+	height: 30px;
+	margin: 10px 0px 0px 105px;
+}
+#ContactButton:hover
+{
+	background-color: #d298a9;
+	cursor: pointer;
+}
+#LocationImg
+{
+	background-image: url('./ProjectImages/map.png');
+	width: 590px;
+	height: 450px;
+	background-size: 590px 450px;
+	background-repeat: no-repeat;	
+}
+
+
+
+
+
+#StoreMain
+{
+	width: 984px;
+	height: 1572px;
+	border: 3px solid grey;
+}
+#StorePic
+{
+	width: 980px;
+	height: 350px;
+	background-image: url(./ProjectImages/running.jpg);
+	background-size: 980px 350px;
+}
+#StoreHead
+{
+	font-size: 50px;
+	padding: 100px 0px 0px 355px;
+	color: aliceblue;
+}
+#StoreP
+{
+	font-size: 16px;
+	font-family: sans-serif;
+	color: whitesmoke;
+	padding: 16px 0px 0px 338px;
+}
+#first
+{
+	background: black; 
+	width: 978px;
+	height: 600px;
+}
+.storeh
+{
+	margin: 5px 0px 0px 0px;
+	padding: 10px;
+	color: white;
+	background: #6c6c6c;
+}
+.divMargin
+{
+	padding: 5px 0px 0px 10px;
+}
+.Heading
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: 25px;
+	margin: 30px 0px 0px 0px;
+	font-weight: bold;
+}
+.Paragraph
+{
+	color: white;
+	font-family: sans-serif;
+	margin: -25px 0px 0px 10px;
+}
+.LearnButton
+{
+	color: white;
+	background-color: #549bc9;
+	width: 105px;
+	height: 35px;
+	border-radius: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	text-decoration: none;
+	margin: 0px 0px 0px 720px;	
+}
+.LearnButton:hover
+{
+	cursor: pointer;
+	background: #63b6ec;
+}
+#Second
+{
+	background: black; 
+	width: 978px;
+	height: 300px;	
+}
+#Third
+{
+	background: black; 
+	width: 978px;
+	height: 300px;	
+}
+
+
+
+
+
+#FUGallery
+{
+	width: 968px;
+	height: 365px;
+	background: url(./ProjectImages/GalleryBack.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 968px 365px;
+    padding: 5px;
+}
+#FUGallery  h1
+{
+	color: #39c1f6;
+	font-size: 65px;
+	text-align: center;
+	margin: 90px 0px 0px 0px;
+}	
+#GalleryMain
+{
+	width: 958px;
+	height: 2915px;
+	border: 5px solid grey;
+}
+#GalleryMain video{
+	
+	display: inline-block;
+	margin: 30px 0px 0px 80px;
+}
+
+
+#NutritionMain
+{
+	width: 981px;
+	height: 1520px;
+	background: white;
+	border: 5px solid grey;
+}
+#NutritionHead
+{
+	width: 978px;
+	height: 400px;
+	background: url(./ProjectImages/nutritionCoaching.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 965px 400px;
+  	padding: 10px 0px 0px 0px;
+	
+}
+#NutritionHead  h1{
+	color: #1ddef5;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: center;
+	margin: 65px 0px 0px 0px;
+}	
+
+#NutritionHead button
+{
+	width: 245px;
+	height: 40px;
+	border-radius: 15px;
+	text-align: center;
+	float: right;
+	margin: 150px 39px 0px 0px; 
+	background: orange;
+	border: none;
+}
+#NutritionHead button:hover
+{
+	background-color: #fff300;
+}
+#NutritionPara
+{
+	width: 895px;
+	height: 200px;
+	border: 5px solid grey;
+}
+#NutritionPara:hover
+{
+	border: 5px solid skyblue;	
+}
+#NutritionP
+{
+	font-size: 22px;
+	color: black;
+	padding: 17px;
+}
+#NutritionContent
+{
+	width: 895px;
+	height: 405px;
+	border: 5px solid grey;
+	margin-top: 10px;	
+}
+#NutritionContent:hover
+{
+	border: 5px solid skyblue;	
+}
+.NutritionBlocks
+{
+	width: 296px;
+	height: 400px;
+	float: left;
+	background: white;	
+}
+.NutritionBlocks p
+{
+	font-size: 26px;
+	margin: 7px 0px 0px 7px;
+}	
+.NutritionBlocks li
+{
+	margin: 16px 0px 0px 34px;
+}
+#NutritionBio
+{
+	width: 895px;
+	height: 452px;
+	border: 5px solid grey;	
+	margin-top: 10px;
+}
+#NutritionBio:hover
+{
+	border: 5px solid skyblue;
+}
+.Nutritionist
+{
+	width: 446px;
+	height: 452px;
+	float: left;
+}
+.Nutritionist h5
+{
+	font-size: 29px;
+	font-family: Arial Black, Gadget, sans-serif;
+	margin: 10px 0px 0px 16px; 
+}
+.Nutritionist img
+{
+	width:  244px;
+	height: 230px;
+	margin: 10px 0px 0px 51px;
+}
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: auto;
+  float: inline-start;	
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+#intrrr
+{
+	width: 300px;
+	height: 122px;
+	background: white;
+	margin-left: 25px;
+}
+#intrrr button{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	background:#a4f0f3;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	margin:3px 0px 0px 97px;
+}
+.Nutritionist h1{
+	font-size: 29px;
+	margin: 10px 0px 0px 16px; 
+}
+.Nutritionist p{
+	font-size: 19px;
+	margin: 20px 0px 0px 16px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

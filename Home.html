@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="HomeStyle.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	 <script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div class="main">	
+		<div class="header">
+			<img src="./ProjectImages/fublack.png" alt="logo" id="logo">
+
+			<h1 id="name">FU Fitness Training Center</h1>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="menubar">
+     	<a class="active" href="home.html">Home</a> 
+      	<a href="About.html">About Us</a> 
+      	<a href="Service.html">Service</a>
+      	<a href="staff.html">Staff</a>
+      	<a href="LocationAndContact.html">Location & Contact</a>
+      	<a href="Store.html">Store</a>
+      	<a href="GalleryImages.html">Gallery</a>
+      	<a href="registration.html">Register Yourself</a>
+      	<a href="Login.html">Login</a>
+      	<a href="Nutrition.html">Nutrition</a>
+      	<div class="clear"></div>
+        </div>
+
+        <div id="contentmain">
+        	<div id="sidebarleft">
+        		<div class="leftbarbox" id="img1">
+        			<button class="HBXStyle" onclick="pop()">HBX</button>
+        			<script>
+			        function pop() {
+			            swal("HBX!", "HBX (Human Body Exercise) brings fun, performance and above all concrete results by focusing on the quality of training both in Personal Training (personal trainer) and Team Training (coach mini group - 8 to 10 people ). ");
+			        }
+        </script>
+        		</div>
+        		<div class="leftbarbox" id="img2">
+        			<button class="HBXStyle" onclick="pop2()">HBX Boxing</button>
+        			<script >
+             function pop2() {
+            swal("HBX Boxing!", "HBX Boxing allows you to provide an unforgettable experience and support, alone or in small groups, with real and measurable results by improving health expectancy and up-ing your performance.");
+          }
+            
+          </script>
+        		</div>
+        		<div class="leftbarbox" id="img3">
+        			<button class="HBXStyle" onclick="pop1()">HBX Strong</button>
+        			<script >
+             function pop1() {
+            swal("HBX strong!", " HBX Strong is based on the latest global scientific research and approved by the Olympic federations. In partnership with leading experts in training, nutrition and coaching, ");
+          }
+            
+          </script>
+        	</div>
+        	</div>
+        	
+        	<div id="sidebarright">
+        	<script>
+			var i = 0;
+			var images = [];
+			images[0] = './ProjectImages/d.jpg';
+			images[1] = './ProjectImages/af.png';
+			images[2] = './ProjectImages/ag.png';
+			images[3] = './ProjectImages/ah.png';
+			function changeImg(){
+				document.slide.src = images[i];
+
+				if(i < images.length - 1){
+					i++;
+				} else {
+					i = 0;
+				}
+				setTimeout("changeImg()", 3000);
+			}
+			window.onload = changeImg;
+			</script>
+			<img name="slide" id="sliderimages" id="chk">
+        	</div><!--side bar right div-->
+        </div> <!--content main div end-->
+
+        <div id="secondcontent">
+        	<div id="welcome">
+        		<h1 id="headingWelcome">WELCOME TO OUR GYM</h1>
+        		<p id="para">It's about your goals - It's what you make of it. The Pulse team excels in different areas of fitness so members can choose from a variety of training styles to mix up your workouts and avoid any plateaus in your training. We'll motivate you, coach you, and hold you accountable. Our passion, dedication, creativity, knowledge and expertise set us apart. We're invested in your success! Visit us for a complimentary training session and experience the right way to train. </p>
+        	</div>
+
+        	<div id="Guides">
+        			<div class="boxes" id="boximg1">
+        				<button class="homeButton" onclick="popc()">Book A Tour</button>
+        			<script>
+			            function popc() {
+			              swal("Book a Tour!", "Book a tour of one of our facilities today! If there is not a time that accommodates your schedule please email questions@FUfitnesstraining.com and we will fit you in.!");
+			            }
+			         </script>
+        			</div>
+        			<div class="boxes" id="boximg2">
+        				<button class="homeButton" onclick="popd()">Trainings</button>
+        				<script>
+			            function popd() {
+			              swal("Personal Training!", "One-on-one Personal Training is our signature service. We have an amazing team of expert trainers, who are passionate career driven professionals. You won’t find any fly-by-night trainers, or just out of school newbies on our floor. !");
+			            }
+          				</script>
+        			</div>
+        			<br>
+        			<div class="boxes" id="boximg3">
+        				<button class="homeButton" onclick="popf()">Group Classes</button>
+        				<script>
+				            function popf() {
+				              swal("Group Classes!", "Whether you are a fitness pro or just getting started, there is something for you on our dynamic class schedule, all lead by experienced and certified Instructors!");
+				            }
+				          </script>
+        			</div>
+        			<div class="boxes" id="boximg4">
+        				<button class="homeButton" onclick="popg()">Boot Camp</button>
+        				<script>
+			            function popg() {
+			              swal("Boot Camp!", "Our Boot Camps are designed to build strength and fitness through a variety of intense intervals & timed rotations to create a fun and effective workout!");
+			            }
+			          </script>
+        			</div>		
+        	</div>
+        	<div class="clear"></div>
+        </div>
+        			<!--Div Footer-->
+        	<div class="footerMain">
+        		<div class="social">
+				       <a href=""><img src="./ProjectImages/facebook_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/skype_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/linkedin_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/pinterest_icon.png"></a>
+				      <a href=""><img src="./ProjectImages/dribbble_icon.png"></a>
+
+		 		</div>
+
+		 		<div id="footBox">
+		 			<div class="footerboxes">
+		 				<h2>COURSES</h2>
+			 			
+			 				<a href="PT.html">Personal Trainer(Full-time)</a>
+			 				<a href="Staff.html">Gym Instructor</a>
+			 				<a href="SM.html">Sports message</a>
+			 				<a href="YI.html">Yoga instructor</a>
+			 				<a href="FS.html">Funding Support</a>
+			 				<a href="AC.html">All Courses</a>
+		 			</div>
+		 			<div class="footerboxes">
+		 				<h2>FITNESS CAREER</h2>
+ 				
+ 				<a href="AA.html">Apprenticeship</a>	
+ 				<a href="PT.html">Fitness Academy</a>
+ 				<a href="CG.html">Carreer Guide</a>
+ 			
+		 			</div>
+		 			<div class="footerboxes">
+		 				<h2>ABOUT</h2>
+ 				
+ 				<a href="About.html">About FU FITNESS </a>
+ 				<a href="LocationAndContact.html"> Contact</a><br>
+		 			</div>
+		 			
+		 			<div class="footerboxes">
+		 				
+		 				<h2>GET IN TOUCH</h2>
+ 				
+ 				<p>Get exclusive news about upcoming courses, events and workshops.</p>
+        		<form onsubmit="return popo()">
+ 				<input type="text" name="name" placeholder="Name"  maxlength="10" required >
+ 				<input type="text" name="email" placeholder="Email " required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+ 				<button onsubmit="popo()">submit</button>
+				      </form>
+		 			</div>
+		 			<div class="clear"></div>
+		 		</div> <!--foot box end-->	
+
+		 		<div class="copyright">
+			 		<p><em>Privacy and Cookies <b>|</b>  Policies<br><br>
+			 		&copy;FU</em> Fitness training Center. All rights reserved </p>
+			        
+			        <a href="About.html">AboutUs</a> 
+			        <a href="LocationAndContact.html">Location & Contact</a>
+			        <a class="active" href="home.html">Home</a> 
+		    </div>
+
+        	</div>  <!--footer end-->
+
+
+
+	</div> <!--main div close-->
+</body>
+</html>

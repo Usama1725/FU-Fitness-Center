@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+body{
+	background: #cccc
+    }
+.main
+{
+	width: 990px;
+	height: auto;
+}
+
+#seeMain
+{
+
+   height: 0 auto;
+   width: 990;
+}
+#headerOA
+{
+	height: 300px;
+	width: 990px;
+	background-image: url(./ProjectImages/welcome.jpg);
+	background-repeat: no-repeat;
+	background-size: 990px 300px;
+}
+
+#headerOA h1
+{
+	font-size: 30px;
+	color: white;
+	padding: 56px 0 0 250px;
+}
+
+#headerOA p
+{
+	font-size: 20px;
+	color: white;
+	padding: 19px 90px 25px 130px;
+
+}
+
+#headerOA button
+{
+	  font-size: 15px;  
+      margin: 0 0 0 0;
+      padding: 10px 50px 10px 38px;
+
+
+}
+
+
+#headerOA input
+{
+	margin: 0 12px 0 213px;
+    font-size: 13px;
+    padding: 12px 40px 13px 40px;
+
+}
+
+
+.all
+{
+	height: 400px;
+	width: 990px;
+	background-color: #ffffff;
+}
+
+.all label
+{
+	
+  padding: 0 0 0 0;
+  font-size: 20px;
+}
+
+.all select
+{
+	margin: 74px 41px 47px 46px;
+    padding: 9px 15px 15px 33px;
+    font-size: 20px;
+
+}
+.contentAllofcoursess
+{
+	height: 0 auto;
+	width: 990px;
+	background-color: #ffffff;
+
+}
+
+
+.contentAllofcoursess h2
+{
+  padding: 6px 0 0 69px;
+  font-size: 30px;
+}
+
+.contentAllofcoursess p
+{
+      padding: 14px 52px 29px 61px;
+    font-size: 20px;
+}
